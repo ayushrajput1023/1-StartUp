@@ -1,0 +1,350 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #363636;
+}
+.hide{
+  visibility: hidden;
+}
+/**--------------- Home --------------------*/
+
+.homeimg{
+  width: 40%;
+  float: left;
+  margin-right: 80px;
+}
+.navbor{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.navitem{
+  color: white;
+}
+.navitem:hover{
+  color: orange;
+}
+.n1{
+  margin-left: 30px;
+}
+.logocolor{
+  color: white;
+}
+.navlogo{
+  color: orange;
+}
+.logop{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.leftitm{
+  margin-left: 3rem;
+}
+.rightitm{
+  margin-right: 5rem;
+}
+.homedata{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.homidat{
+  text-align: left;
+}
+.homehead{
+  color: orange;
+  line-height: 1;
+}
+.homep{
+  color: white;
+}
+.homebut{
+  background-color: orange;
+}
+.movehome{
+  padding-top: 45px;
+}
+
+/**--------------- About --------------------*/
+
+.aboutdata{
+  color: white;
+  font-weight: bold;
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 10rem;
+}
+.aboutimg{
+  width: 30%;
+  float: left;
+  margin-right: 70px;
+}
+.insideaboutdiv{
+  padding-top: 100px;
+}
+
+/**--------------- Quality --------------------*/
+.quality{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10rem;
+  margin-bottom: 8rem;
+}
+.qualityp{
+  width: 450px;
+  padding-top: 8rem;
+}
+
+.qualityimg{
+  float: right;
+  width: 40%;
+}
+/**--------------- gallery --------------------*/
+.gallerydata{
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: white;
+}
+.galleryimg{
+  width: 20rem;
+}
+
+
+/**--------------- food --------------------*/
+.food{
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.bgimg{
+    background-image: url(Images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fooddata{
+  color: white;
+  border: 6px solid orange;
+  padding: 30px;
+  width: 500px;
+  height: 50%;
+  font-weight: bold;
+}
+
+
+
+/**--------------- menu --------------------*/
+.menu{
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.menudata{
+  margin-top: 5rem;
+  text-align: left;
+  font-weight: bold;
+}
+.headcolor{
+  color: white;
+}
+.datacolor{
+  color: orange;
+}
+.menuimg{
+  width: 20rem;
+}
+
+
+
+/**--------------- meal --------------------*/
+.meal{
+  background-color: orange;
+  margin: 8rem auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mealdata{
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  width: 80%;
+}
+.mealimg{
+  float: left;
+  width: 35%;
+  padding-top: 6.2%;
+  margin-right: 80px;
+}
+
+/**--------------- footer --------------------*/
+.footer{
+  color: white;
+  padding-bottom: 5rem;
+}
+.linkcontainer,.foothead,.logo{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.heartlogo{
+  color: orange;
+}
+.link{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.link:hover{
+  text-decoration: none;
+  color: white;
+}
+.logolink{
+  color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.logolink:hover{
+  color: orange;
+}
+.lastlog{
+  font-size: 30px;
+}
+
+/**---------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1028px)
+{
+
+  .hide{
+    visibility: visible;
+    width: 150px;
+    border-top: 20px dotted white;
+  }
+  .tab{
+    display: inline-table;
+  }
+  .n1{
+    font-size: 20px;
+  }
+  /**-----------home-----------*/
+  .logop{
+    margin-left: 135px;;
+  }
+  .n2{
+    margin-left: 150px;
+  }
+  .burger{
+    background-color: white;
+  }
+  .homeimg{
+    width: 70%;
+  }
+  .homehead{
+    color: orange;
+    line-height: 1;
+    font-size: 90px;
+  }
+  .homep{
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .homebut{
+    font-size: 40px;
+  }
+  /**--------------about-----------*/
+  .aboutimg{
+    width: 50%;
+  }
+  .abouthead{
+    font-size: 90px;
+  }
+  .aboutp{
+    font-size: 45px;
+  }
+  .insideaboutdiv{
+    padding-top: 38rem;
+  }
+
+  /**----------quality----------*/
+  .qualityp{
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .qualityimg{
+    width: 70%;
+    float: none;
+    padding-left: 150px;
+  }
+  .qualhead{
+    font-size: 90px;
+  }
+  .qualp{
+    padding-top: 10px;
+    font-size: 45px;
+  }
+  .quality{
+    margin-left: 30px;
+  }
+
+  /**-------------gallery----------*/
+  .gallerydata{
+    font-size: 90px;
+  }
+  .galleryimg{
+    width: 30rem;
+  }
+
+  /**-------------Food-------------*/
+  .foodhead{
+    font-size: 90px;
+  }
+  .foodp{
+    font-size: 45px;
+  }
+  .fooddata{
+    width: 800px;
+  }
+
+/**------------Menu-------------*/
+
+  .menudata{
+    text-align: center;
+  }
+  .menuimg{
+    width: 30rem;
+  }
+  .headcolor{
+    font-size: 50px;
+  }
+  .datacolor{
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+/**------------meal-------------*/
+ .mealimg{
+   width: 55%;
+   padding-top: 10rem;
+   float: none;
+  }
+  .meal{
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 0;
+  }
+  .mealdata{
+    text-align: center;
+    width: 100%;
+  }
+  .mealhead{
+    font-size: 90px;
+  }
+  .mealp{
+    font-size: 45px;
+  }
+}
